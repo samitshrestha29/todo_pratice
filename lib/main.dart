@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo/todo_model.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,14 +21,6 @@ class MyHomePage extends StatefulWidget {
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class Todo {
-  String title;
-
-  Todo({
-    required this.title,
-  });
 }
 
 class _MyHomePageState extends State<MyHomePage> {
